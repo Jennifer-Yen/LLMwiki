@@ -1,0 +1,15 @@
+# Local caches and operating-system files
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+.aws/
+*.key
+*.pem

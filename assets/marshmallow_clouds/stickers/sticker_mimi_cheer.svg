@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <filter id="stickerShadow3" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#EAB308" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#stickerShadow3)">
+    <!-- 白色底托 -->
+    <path d="M 120,260 C 50,260 40,170 90,140 C 65,85 130,50 170,80 C 205,35 285,45 305,95 C 360,110 365,190 325,235 C 345,280 290,315 245,295 C 200,320 140,310 120,260 Z" 
+          fill="#FFFFFF" stroke="#FFFFFF" stroke-width="26" stroke-linejoin="round"/>
+    <!-- 米米身軀 -->
+    <path d="M 120,260 C 60,260 50,180 95,150 C 75,95 135,65 170,90 C 205,50 275,60 295,105 C 345,120 350,195 315,235 C 335,275 285,305 245,290 C 205,315 150,305 120,260 Z" 
+          fill="#FFFDF5" stroke="#FDE047" stroke-width="6"/>
+  </g>
+
+  <!-- 應援彩帶與彩球 -->
+  <g transform="translate(65, 120) rotate(-25) scale(1.4)">
+    <circle cx="15" cy="15" r="14" fill="#F43F5E"/>
+    <circle cx="22" cy="8" r="10" fill="#FBBF24"/>
+    <circle cx="8" cy="22" r="10" fill="#38BDF8"/>
+  </g>
+  <g transform="translate(295, 105) rotate(25) scale(1.4)">
+    <circle cx="15" cy="15" r="14" fill="#F43F5E"/>
+    <circle cx="22" cy="8" r="10" fill="#FBBF24"/>
+    <circle cx="8" cy="22" r="10" fill="#38BDF8"/>
+  </g>
+
+  <!-- 糖果米頭飾 -->
+  <rect x="150" y="75" width="20" height="8" rx="4" fill="#F43F5E" transform="rotate(-20 160 79)"/>
+  <rect x="210" y="70" width="20" height="8" rx="4" fill="#38BDF8" transform="rotate(30 220 74)"/>
+
+  <!-- 大大星瞳雙眼 -->
+  <circle cx="150" cy="175" r="14" fill="#0F172A"/>
+  <polygon points="150,166 153,172 159,173 154,177 156,183 150,180 144,183 146,177 141,173 147,172" fill="#FFFFFF"/>
+  
+  <circle cx="230" cy="175" r="14" fill="#0F172A"/>
+  <polygon points="230,166 233,172 239,173 234,177 236,183 230,180 224,183 226,177 221,173 227,172" fill="#FFFFFF"/>
+
+  <ellipse cx="125" cy="195" rx="18" ry="11" fill="#FDA4AF" opacity="0.9"/>
+  <ellipse cx="255" cy="195" rx="18" ry="11" fill="#FDA4AF" opacity="0.9"/>
+
+  <!-- 開心大張嘴歡呼 -->
+  <path d="M 175,190 Q 190,218 205,190 Z" fill="#F43F5E" stroke="#0F172A" stroke-width="4"/>
+
+  <!-- 貼圖標籤 -->
+  <g transform="translate(195, 360)">
+    <rect x="-80" y="-22" width="160" height="34" rx="17" fill="#F59E0B" stroke="#FFFFFF" stroke-width="4"/>
+    <text x="0" y="2" font-family="sans-serif" font-size="19" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">FIGHTING! ⭐</text>
+  </g>
+</svg>
